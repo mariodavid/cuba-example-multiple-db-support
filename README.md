@@ -78,6 +78,8 @@ task buildWar(type: CubaWarBuilding) {
 └── tomcat-logs.sh
 ```
 
+### Changing the DBMS of the application at deploy-time
+
 0. ensure tomcat is stopped (`./stop-tomcat.sh`)
 1. generate war files through `./generate-war.sh` which will generate & copy wars to the target tomcat (webapps directory)
 2. change DBMS settings
