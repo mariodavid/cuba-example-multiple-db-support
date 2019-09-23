@@ -1,56 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a870dadc-2a42-4ed3-8d55-b25ca3166a46" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/modules/core/.gradle/" />
+    <ignored path="$PROJECT_DIR$/modules/core/build/" />
+    <ignored path="$PROJECT_DIR$/modules/global/.gradle/" />
+    <ignored path="$PROJECT_DIR$/modules/global/build/" />
+    <ignored path="$PROJECT_DIR$/modules/web/.gradle/" />
+    <ignored path="$PROJECT_DIR$/modules/web/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
     <option name="isMigrated" value="true" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="projectSyncType">
-      <map>
-        <entry key="$USER_HOME$/Downloads/composite-test" value="PREVIEW" />
-        <entry key="$USER_HOME$/Downloads/cuba-example-custom-login-screen" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../cuba-component-attachable" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../cuba-component-data-import" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../cuba-component-entity-soft-reference" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../cuba-component-instant-launcher" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../cuba-component-runtime-diagnose" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../cuba-component-taggable" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../cuba-component-user-inbox" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../cuba-component-wizard" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../cuba-example-using-taggable" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../cuba-example-using-wizard" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../cuba-petclinic" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../cuba-petclinic-application-logging" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../cuba-petclinic-business-logic" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../cuba-petclinic-data-model-composition" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../cuba-petclinic-data-model-entity-inheritance" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../cuba-petclinic-data-model-many-to-many" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../cuba-petclinic-i18n-messages" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../cuba-petclinic-initial-entity-values" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../cuba-petclinic-intro-to-application-events" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../cuba-petclinic-intro-to-datamanager" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../cuba-petclinic-intro-to-reports" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../cuba-petclinic-online-demo" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../cuba-petclinic-working-with-images" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../ZuperKreuZ/cuba-component-wizard" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../cuba-7-release-party" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../cuba-example-deactivated-entities" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../cuba-example-using-data-import" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../cuba-example-using-scheduled-reports" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../cuba-navigation-sample" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../list-repeater" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../screen-api-demos" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../screen-mixins-demo" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../teamprogress" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../mariodavid/cuba" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../mariodavid/cuba-component-declarative-controllers" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../mariodavid/cuba-example-declarative-comments" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../sampler" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../thekla/thekla-heating-grid" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../tia-service-ui" value="PREVIEW" />
-      </map>
-    </option>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-1920" />
@@ -58,9 +42,65 @@
     <option name="width" value="1920" />
     <option name="height" value="1057" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cuba-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cuba-app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="cubaProjectView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cuba-app" type="3e3ce59f:CubaViewProjectNode" />
+              <item name="Project" type="10fe70ea:ProjectSection" />
+            </path>
+            <path>
+              <item name="cuba-app" type="3e3ce59f:CubaViewProjectNode" />
+              <item name="Middleware" type="b326c000:MiddlewareSection" />
+            </path>
+            <path>
+              <item name="cuba-app" type="3e3ce59f:CubaViewProjectNode" />
+              <item name="Generic UI" type="75975f5b:GenericUiSection" />
+            </path>
+            <path>
+              <item name="cuba-app" type="3e3ce59f:CubaViewProjectNode" />
+              <item name="Runs At..." type="eaf73431:UrlsSection" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="CUBA Application.CUBA Application">
     <configuration name="localhost:8787" type="Remote">
@@ -81,5 +121,56 @@
         <option name="DeployCubaApplicationTaskProvider" enabled="true" />
       </method>
     </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a870dadc-2a42-4ed3-8d55-b25ca3166a46" name="Default Changelist" comment="" />
+      <created>1569229076818</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569229076818</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1920" y="-74" width="1920" height="1057" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16187434" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.2911917" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Build" weight="0.32953367" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/etc/war-logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
   </component>
 </project>
