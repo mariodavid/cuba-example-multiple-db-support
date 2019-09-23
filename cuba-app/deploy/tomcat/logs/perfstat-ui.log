@@ -1,0 +1,47 @@
+Performance Statistics   2019-09-23 09:40:00 - 2019-09-23 09:42:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+login#afterShow                                          0,0           0           0         0,0           2
+login#beforeShow                                         2,0           0           4         2,0           2
+login#create                                            69,0           0         138        69,0           2
+login#init                                              10,0           0          20        10,0           2
+login#inject                                            20,0           0          40        20,0           2
+login#load                                             266,0           2         530       264,0           2
+login#uiPermissions                                      0,0           0           0         0,0           2
+login#xml                                                4,5           0           9         4,5           2
+main#afterShow                                          13,0          13          13         0,0           1
+main#beforeShow                                          0,0           0           0         0,0           1
+main#create                                             13,0          13          13         0,0           1
+main#init                                               13,0          13          13         0,0           1
+main#inject                                              7,0           7           7         0,0           1
+main#load                                              190,0         190         190         0,0           1
+main#uiPermissions                                       0,0           0           0         0,0           1
+main#xml                                                 2,0           2           2         0,0           1
+
+Performance Statistics   2019-09-23 09:48:00 - 2019-09-23 09:50:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+login#afterShow                                          0,0           0           0         0,0           1
+login#beforeShow                                         3,0           3           3         0,0           1
+login#create                                           133,0         133         133         0,0           1
+login#init                                              21,0          21          21         0,0           1
+login#inject                                            71,0          71          71         0,0           1
+login#load                                             593,0         593         593         0,0           1
+login#uiPermissions                                      0,0           0           0         0,0           1
+login#xml                                                7,0           7           7         0,0           1
+
+Performance Statistics   2019-09-23 10:14:00 - 2019-09-23 10:16:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+login#afterShow                                          0,0           0           0         0,0           1
+login#beforeShow                                         4,0           4           4         0,0           1
+login#create                                           162,0         162         162         0,0           1
+login#init                                            9130,0        9130        9130         0,0           1
+login#inject                                            66,0          66          66         0,0           1
+login#load                                             486,0         486         486         0,0           1
+login#uiPermissions                                      0,0           0           0         0,0           1
+login#xml                                               10,0          10          10         0,0           1
+
+Performance Statistics   2019-09-23 10:16:00 - 2019-09-23 10:18:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 10:18:00 - 2019-09-23 10:20:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+

@@ -1,0 +1,234 @@
+23-Sep-2019 09:24:26.132 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/mario/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+23-Sep-2019 09:24:26.348 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-8080"]
+23-Sep-2019 09:24:26.399 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["ajp-nio-8009"]
+23-Sep-2019 09:24:26.401 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [663] milliseconds
+23-Sep-2019 09:24:26.434 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Sep-2019 09:24:26.435 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.19]
+23-Sep-2019 09:24:26.455 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app]
+23-Sep-2019 09:24:35.758 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app] has finished in [9.303] ms
+23-Sep-2019 09:24:35.759 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app-core]
+23-Sep-2019 09:24:45.209 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app-core] has finished in [9.450] ms
+23-Sep-2019 09:24:45.218 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Sep-2019 09:24:45.230 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+23-Sep-2019 09:24:45.234 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [18.831] milliseconds
+23-Sep-2019 09:28:07.644 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/mario/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+23-Sep-2019 09:28:07.761 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-8080"]
+23-Sep-2019 09:28:07.813 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["ajp-nio-8009"]
+23-Sep-2019 09:28:07.815 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [543] milliseconds
+23-Sep-2019 09:28:07.874 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Sep-2019 09:28:07.875 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.19]
+23-Sep-2019 09:28:07.888 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app]
+23-Sep-2019 09:28:15.879 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app] has finished in [7.991] ms
+23-Sep-2019 09:28:15.880 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app-core]
+23-Sep-2019 09:28:23.186 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app-core] has finished in [7.305] ms
+23-Sep-2019 09:28:23.194 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Sep-2019 09:28:23.226 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+23-Sep-2019 09:28:23.241 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [15.425] milliseconds
+23-Sep-2019 09:31:32.946 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/mario/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+23-Sep-2019 09:31:33.203 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-8080"]
+23-Sep-2019 09:31:33.249 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["ajp-nio-8009"]
+23-Sep-2019 09:31:33.252 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [824] milliseconds
+23-Sep-2019 09:31:33.280 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Sep-2019 09:31:33.280 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.19]
+23-Sep-2019 09:31:33.299 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app]
+23-Sep-2019 09:31:40.710 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app] has finished in [7.410] ms
+23-Sep-2019 09:31:40.711 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app-core]
+23-Sep-2019 09:31:47.206 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app-core] has finished in [6.495] ms
+23-Sep-2019 09:31:47.210 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Sep-2019 09:31:47.220 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+23-Sep-2019 09:31:47.228 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [13.974] milliseconds
+23-Sep-2019 09:35:35.321 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/mario/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+23-Sep-2019 09:35:35.562 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-8080"]
+23-Sep-2019 09:35:35.614 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["ajp-nio-8009"]
+23-Sep-2019 09:35:35.618 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [677] milliseconds
+23-Sep-2019 09:35:35.675 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Sep-2019 09:35:35.676 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.19]
+23-Sep-2019 09:35:35.687 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app]
+23-Sep-2019 09:35:43.157 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app] has finished in [7.470] ms
+23-Sep-2019 09:35:43.158 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app-core]
+23-Sep-2019 09:35:49.995 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app-core] has finished in [6.836] ms
+23-Sep-2019 09:35:49.999 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Sep-2019 09:35:50.010 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+23-Sep-2019 09:35:50.012 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [14.392] milliseconds
+23-Sep-2019 09:41:34.003 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/mario/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+23-Sep-2019 09:41:34.324 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-8080"]
+23-Sep-2019 09:41:34.403 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["ajp-nio-8009"]
+23-Sep-2019 09:41:34.407 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [908] milliseconds
+23-Sep-2019 09:41:34.438 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Sep-2019 09:41:34.439 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.19]
+23-Sep-2019 09:41:34.450 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app]
+23-Sep-2019 09:41:41.948 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app] has finished in [7.498] ms
+23-Sep-2019 09:41:41.951 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app-core]
+23-Sep-2019 09:41:49.334 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app-core] has finished in [7.383] ms
+23-Sep-2019 09:41:49.338 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Sep-2019 09:41:49.350 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+23-Sep-2019 09:41:49.355 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [14.946] milliseconds
+23-Sep-2019 09:49:27.724 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/mario/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+23-Sep-2019 09:49:27.952 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-8080"]
+23-Sep-2019 09:49:27.989 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["ajp-nio-8009"]
+23-Sep-2019 09:49:27.992 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [630] milliseconds
+23-Sep-2019 09:49:28.023 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Sep-2019 09:49:28.023 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.19]
+23-Sep-2019 09:49:28.035 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app]
+23-Sep-2019 09:49:36.669 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app] has finished in [8.634] ms
+23-Sep-2019 09:49:36.670 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app-core]
+23-Sep-2019 09:49:44.725 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app-core] has finished in [8.055] ms
+23-Sep-2019 09:49:44.731 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Sep-2019 09:49:44.741 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+23-Sep-2019 09:49:44.746 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [16.753] milliseconds
+23-Sep-2019 10:09:12.665 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/mario/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+23-Sep-2019 10:09:12.816 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-8080"]
+23-Sep-2019 10:09:12.850 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["ajp-nio-8009"]
+23-Sep-2019 10:09:12.854 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [560] milliseconds
+23-Sep-2019 10:09:12.890 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Sep-2019 10:09:12.891 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.19]
+23-Sep-2019 10:09:12.906 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app]
+23-Sep-2019 10:09:20.148 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app] has finished in [7.242] ms
+23-Sep-2019 10:09:20.149 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app-core]
+23-Sep-2019 10:09:27.751 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app-core] has finished in [7.603] ms
+23-Sep-2019 10:09:27.756 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Sep-2019 10:09:27.768 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+23-Sep-2019 10:09:27.771 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [14.916] milliseconds
+23-Sep-2019 10:10:04.759 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/mario/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+23-Sep-2019 10:10:04.938 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-8080"]
+23-Sep-2019 10:10:05.003 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["ajp-nio-8009"]
+23-Sep-2019 10:10:05.029 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [655] milliseconds
+23-Sep-2019 10:10:05.086 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Sep-2019 10:10:05.087 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.19]
+23-Sep-2019 10:10:05.098 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app]
+23-Sep-2019 10:10:15.817 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app] has finished in [10.720] ms
+23-Sep-2019 10:10:15.819 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app-core]
+23-Sep-2019 10:10:24.779 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app-core] has finished in [8.960] ms
+23-Sep-2019 10:10:24.783 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Sep-2019 10:10:24.791 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+23-Sep-2019 10:10:24.796 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [19.761] milliseconds
+23-Sep-2019 10:11:16.787 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/mario/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+23-Sep-2019 10:11:16.949 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-8080"]
+23-Sep-2019 10:11:17.000 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["ajp-nio-8009"]
+23-Sep-2019 10:11:17.007 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [610] milliseconds
+23-Sep-2019 10:11:17.043 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Sep-2019 10:11:17.043 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.19]
+23-Sep-2019 10:11:17.054 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app]
+23-Sep-2019 10:11:25.966 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app] has finished in [8.911] ms
+23-Sep-2019 10:11:25.968 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app-core]
+23-Sep-2019 10:11:33.585 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app-core] has finished in [7.617] ms
+23-Sep-2019 10:11:33.591 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Sep-2019 10:11:33.606 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+23-Sep-2019 10:11:33.610 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [16.601] milliseconds
+23-Sep-2019 10:14:56.400 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/mario/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+23-Sep-2019 10:14:56.543 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-8080"]
+23-Sep-2019 10:14:56.583 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["ajp-nio-8009"]
+23-Sep-2019 10:14:56.587 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [560] milliseconds
+23-Sep-2019 10:14:56.625 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Sep-2019 10:14:56.626 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.19]
+23-Sep-2019 10:14:56.636 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app]
+23-Sep-2019 10:15:05.757 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app] has finished in [9.121] ms
+23-Sep-2019 10:15:05.758 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app-core]
+23-Sep-2019 10:15:13.364 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app-core] has finished in [7.606] ms
+23-Sep-2019 10:15:13.369 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Sep-2019 10:15:13.378 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+23-Sep-2019 10:15:13.382 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [16.794] milliseconds
+23-Sep-2019 10:24:19.372 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/mario/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+23-Sep-2019 10:24:19.546 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-8080"]
+23-Sep-2019 10:24:19.585 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["ajp-nio-8009"]
+23-Sep-2019 10:24:19.587 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [663] milliseconds
+23-Sep-2019 10:24:19.644 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Sep-2019 10:24:19.645 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.19]
+23-Sep-2019 10:24:19.657 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app]
+23-Sep-2019 10:24:25.443 SCHWERWIEGEND [main] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+23-Sep-2019 10:24:25.447 SCHWERWIEGEND [main] org.apache.catalina.core.StandardContext.startInternal Context [/app] startup failed due to previous errors
+23-Sep-2019 10:24:25.466 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app] has finished in [5.809] ms
+23-Sep-2019 10:24:25.466 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app-core]
+23-Sep-2019 10:24:33.722 SCHWERWIEGEND [main] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+23-Sep-2019 10:24:33.723 SCHWERWIEGEND [main] org.apache.catalina.core.StandardContext.startInternal Context [/app-core] startup failed due to previous errors
+23-Sep-2019 10:24:33.732 WARNUNG [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [app-core] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.util.TimerThread.mainLoop(Timer.java:552)
+ java.util.TimerThread.run(Timer.java:505)
+23-Sep-2019 10:24:33.734 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app-core] has finished in [8.268] ms
+23-Sep-2019 10:24:33.742 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Sep-2019 10:24:33.760 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+23-Sep-2019 10:24:33.766 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [14.176] milliseconds
+23-Sep-2019 10:24:53.670 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/mario/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+23-Sep-2019 10:24:53.811 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-8080"]
+23-Sep-2019 10:24:53.848 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["ajp-nio-8009"]
+23-Sep-2019 10:24:53.851 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [513] milliseconds
+23-Sep-2019 10:24:53.892 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Sep-2019 10:24:53.893 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.19]
+23-Sep-2019 10:24:53.932 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app]
+23-Sep-2019 10:25:00.834 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app] has finished in [6.902] ms
+23-Sep-2019 10:25:00.835 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app-core]
+23-Sep-2019 10:25:07.749 SCHWERWIEGEND [main] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+23-Sep-2019 10:25:07.750 SCHWERWIEGEND [main] org.apache.catalina.core.StandardContext.startInternal Context [/app-core] startup failed due to previous errors
+23-Sep-2019 10:25:07.771 WARNUNG [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [app-core] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.util.TimerThread.mainLoop(Timer.java:552)
+ java.util.TimerThread.run(Timer.java:505)
+23-Sep-2019 10:25:07.775 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/deploy/tomcat/webapps/app-core] has finished in [6.940] ms
+23-Sep-2019 10:25:07.782 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Sep-2019 10:25:07.791 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+23-Sep-2019 10:25:07.808 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [13.955] milliseconds
+23-Sep-2019 10:25:36.663 INFORMATION [ServerInfoTimer] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [com.haulmont.cuba.core.sys.persistence.MysqlDbTypeConverter]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [com.haulmont.cuba.core.sys.persistence.MysqlDbTypeConverter]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1383)
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1371)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1224)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1186)
+	at com.haulmont.bali.util.ReflectionHelper.loadClass(ReflectionHelper.java:61)
+	at com.haulmont.cuba.core.sys.persistence.DbmsSpecificFactory.create(DbmsSpecificFactory.java:76)
+	at com.haulmont.cuba.core.sys.persistence.DbmsSpecificFactory.create(DbmsSpecificFactory.java:66)
+	at com.haulmont.cuba.core.sys.persistence.DbmsSpecificFactory.getDbTypeConverter(DbmsSpecificFactory.java:54)
+	at com.haulmont.cuba.core.sys.PersistenceImpl.getDbTypeConverter(PersistenceImpl.java:96)
+	at com.haulmont.cuba.core.app.ServerInfo.updateCurrentServer(ServerInfo.java:170)
+	at com.haulmont.cuba.core.app.ServerInfo$1.run(ServerInfo.java:130)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+23-Sep-2019 10:25:36.665 INFORMATION [ServerInfoTimer] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [com.haulmont.cuba.core.sys.persistence.MysqlDbTypeConverter]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [com.haulmont.cuba.core.sys.persistence.MysqlDbTypeConverter]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1383)
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1371)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1224)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1186)
+	at com.haulmont.bali.util.ReflectionHelper.loadClass(ReflectionHelper.java:61)
+	at com.haulmont.cuba.core.sys.persistence.DbmsSpecificFactory.create(DbmsSpecificFactory.java:80)
+	at com.haulmont.cuba.core.sys.persistence.DbmsSpecificFactory.create(DbmsSpecificFactory.java:66)
+	at com.haulmont.cuba.core.sys.persistence.DbmsSpecificFactory.getDbTypeConverter(DbmsSpecificFactory.java:54)
+	at com.haulmont.cuba.core.sys.PersistenceImpl.getDbTypeConverter(PersistenceImpl.java:96)
+	at com.haulmont.cuba.core.app.ServerInfo.updateCurrentServer(ServerInfo.java:170)
+	at com.haulmont.cuba.core.app.ServerInfo$1.run(ServerInfo.java:130)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+23-Sep-2019 10:26:36.662 INFORMATION [ServerInfoTimer] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [com.haulmont.cuba.core.sys.persistence.MysqlDbTypeConverter]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [com.haulmont.cuba.core.sys.persistence.MysqlDbTypeConverter]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1383)
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1371)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1224)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1186)
+	at com.haulmont.bali.util.ReflectionHelper.loadClass(ReflectionHelper.java:61)
+	at com.haulmont.cuba.core.sys.persistence.DbmsSpecificFactory.create(DbmsSpecificFactory.java:76)
+	at com.haulmont.cuba.core.sys.persistence.DbmsSpecificFactory.create(DbmsSpecificFactory.java:66)
+	at com.haulmont.cuba.core.sys.persistence.DbmsSpecificFactory.getDbTypeConverter(DbmsSpecificFactory.java:54)
+	at com.haulmont.cuba.core.sys.PersistenceImpl.getDbTypeConverter(PersistenceImpl.java:96)
+	at com.haulmont.cuba.core.app.ServerInfo.updateCurrentServer(ServerInfo.java:170)
+	at com.haulmont.cuba.core.app.ServerInfo$1.run(ServerInfo.java:130)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+23-Sep-2019 10:26:36.664 INFORMATION [ServerInfoTimer] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [com.haulmont.cuba.core.sys.persistence.MysqlDbTypeConverter]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [com.haulmont.cuba.core.sys.persistence.MysqlDbTypeConverter]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1383)
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1371)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1224)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1186)
+	at com.haulmont.bali.util.ReflectionHelper.loadClass(ReflectionHelper.java:61)
+	at com.haulmont.cuba.core.sys.persistence.DbmsSpecificFactory.create(DbmsSpecificFactory.java:80)
+	at com.haulmont.cuba.core.sys.persistence.DbmsSpecificFactory.create(DbmsSpecificFactory.java:66)
+	at com.haulmont.cuba.core.sys.persistence.DbmsSpecificFactory.getDbTypeConverter(DbmsSpecificFactory.java:54)
+	at com.haulmont.cuba.core.sys.PersistenceImpl.getDbTypeConverter(PersistenceImpl.java:96)
+	at com.haulmont.cuba.core.app.ServerInfo.updateCurrentServer(ServerInfo.java:170)
+	at com.haulmont.cuba.core.app.ServerInfo$1.run(ServerInfo.java:130)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+

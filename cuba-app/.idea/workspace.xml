@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Downloads/composite-test" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/cuba-example-custom-login-screen" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../cuba-component-attachable" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../cuba-component-data-import" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../cuba-component-entity-soft-reference" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../cuba-component-instant-launcher" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../cuba-component-runtime-diagnose" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../cuba-component-taggable" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../cuba-component-user-inbox" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../cuba-component-wizard" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../cuba-example-using-taggable" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../cuba-example-using-wizard" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../cuba-petclinic" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../cuba-petclinic-application-logging" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../cuba-petclinic-business-logic" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../cuba-petclinic-data-model-composition" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../cuba-petclinic-data-model-entity-inheritance" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../cuba-petclinic-data-model-many-to-many" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../cuba-petclinic-i18n-messages" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../cuba-petclinic-initial-entity-values" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../cuba-petclinic-intro-to-application-events" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../cuba-petclinic-intro-to-datamanager" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../cuba-petclinic-intro-to-reports" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../cuba-petclinic-online-demo" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../cuba-petclinic-working-with-images" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../ZuperKreuZ/cuba-component-wizard" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../cuba-7-release-party" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../cuba-example-deactivated-entities" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../cuba-example-using-data-import" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../cuba-example-using-scheduled-reports" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../cuba-navigation-sample" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../list-repeater" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../screen-api-demos" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../screen-mixins-demo" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../teamprogress" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../mariodavid/cuba" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../mariodavid/cuba-component-declarative-controllers" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../mariodavid/cuba-example-declarative-comments" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../sampler" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../thekla/thekla-heating-grid" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../tia-service-ui" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1920" />
+    <option name="y" value="-74" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
+  </component>
+  <component name="RunManager" selected="CUBA Application.CUBA Application">
+    <configuration name="localhost:8787" type="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="8787" />
+      <option name="AUTO_RESTART" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="CUBA Application" type="cubaTomcatConfiguration" factoryName="CUBA Application" jdk="#JAVA_HOME">
+      <predefined_log_file enabled="true" id="catalina" />
+      <method v="2">
+        <option name="DeployTomcatTaskProvider" enabled="true" />
+        <option name="CopyDbDriversTaskProvider" enabled="true" />
+        <option name="CheckDataBaseTaskProvider" enabled="true" />
+        <option name="DeployCubaApplicationTaskProvider" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+</project>
