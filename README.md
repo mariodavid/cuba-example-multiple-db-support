@@ -9,6 +9,39 @@ server configures the information which DBMS is used and what are the connection
 
 ## Example
 
+The following things have to be taken into consideration:
+
+#### Database drivers
+JDBC driver jars have to be added to the target tomcat. The jars go under `target-tomcat/lib/` directory in the example below.
+Additionally the drivers are added as [dependencies of the core module](https://github.com/mariodavid/cuba-example-multiple-db-support/blob/master/cuba-app/build.gradle#L91):
+
+```
+dependencies {
+    compile(globalModule)
+    compileOnly(servletApi)
+    jdbc(postgres)
+    testRuntime(postgres)
+    jdbc(mysql)
+    testRuntime(mysql)
+}
+```
+
+
+#### buildWar gradle task
+
+The `build.gradle` contains [buildWar](https://github.com/mariodavid/cuba-example-multiple-db-support/blob/master/cuba-app/build.gradle#L210) task:
+
+```
+task buildWar(type: CubaWarBuilding) {
+    includeJdbcDriver = true
+    appProperties = ['cuba.automaticDatabaseUpdate': true]
+    appHome = '../app_home'
+    logbackConfigurationFile = 'etc/war-logback.xml'
+    singleWar = false
+}
+```
+
+
 ```
 [cuba-example-multiple-db-support] tree
 .
