@@ -41,6 +41,7 @@ dependencies {
     appComponent("com.haulmont.cuba:cuba-global:$cubaVersion")
 }
 
+def postgres = 'org.postgresql:postgresql:42.2.5'
 def mysql = 'mysql:mysql-connector-java:8.0.15'
 
 configure([globalModule, coreModule, webModule]) {
@@ -87,6 +88,8 @@ configure(coreModule) {
     dependencies {
         compile(globalModule)
         compileOnly(servletApi)
+        jdbc(postgres)
+        testRuntime(postgres)
         jdbc(mysql)
         testRuntime(mysql)
     }
@@ -108,22 +111,20 @@ configure(coreModule) {
     }
 
     task createDb(dependsOn: assembleDbScripts, description: 'Creates local database', type: CubaDbCreation) {
-        dbms = 'mysql'
+        dbms = 'postgres'
         host = 'localhost'
-        dbName = 'cuba'
-        dbUser = 'root'
-        dbPassword = 'mysql'
-        connectionParams = '?useSSL=false&allowMultiQueries=true&serverTimezone=UTC&allowPublicKeyRetrieval=true'
-    }
+        dbName = 'cemds'
+        dbUser = 'postgres'
+        dbPassword = 'postgres'
+        }
 
     task updateDb(dependsOn: assembleDbScripts, description: 'Updates local database', type: CubaDbUpdate) {
-        dbms = 'mysql'
+        dbms = 'postgres'
         host = 'localhost'
-        dbName = 'cuba'
-        dbUser = 'root'
-        dbPassword = 'mysql'
-        connectionParams = '?useSSL=false&allowMultiQueries=true&serverTimezone=UTC&allowPublicKeyRetrieval=true'
-    }
+        dbName = 'cemds'
+        dbUser = 'postgres'
+        dbPassword = 'postgres'
+        }
 }
 
 configure(webModule) {
@@ -172,6 +173,21 @@ configure(webModule) {
         appName = "${modulePrefix}"
         appJars(modulePrefix + '-global', modulePrefix + '-web')
     }
+
+    task buildScssThemes(type: CubaWebScssThemeCreation)
+
+    task deployThemes(type: CubaDeployThemeTask, dependsOn: buildScssThemes)
+
+    assemble.dependsOn buildScssThemes
+
+    task themesJar(type: Jar) {
+        from file('themes')
+        classifier = 'themes'
+    }
+
+    artifacts {
+        archives themesJar
+    }
 }
 
 task undeploy(type: Delete, dependsOn: ":${modulePrefix}-web:cleanConf") {
@@ -191,3 +207,10 @@ task restart(dependsOn: ['stop', ":${modulePrefix}-core:deploy", ":${modulePrefi
     }
 }
 
+task buildWar(type: CubaWarBuilding) {
+    includeJdbcDriver = true
+    appProperties = ['cuba.automaticDatabaseUpdate': true]
+    webXmlPath = 'modules/web/web/WEB-INF/single-war-web.xml'
+    appHome = '../app_home'
+    logbackConfigurationFile = 'etc/war-logback.xml'
+}

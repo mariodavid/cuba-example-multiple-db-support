@@ -7,5 +7,12 @@
     <context:component-scan base-package="com.rtcab.cemds"/>
     
     <gui:screens base-packages="com.rtcab.cemds.web"/>
+    <bean id="cemds_proxyCreator" class="com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator">
+        <property name="serverSelector" ref="cuba_ServerSelector"/>
+        <property name="remoteServices">
+            <map>
+            </map>
+        </property>
+    </bean>
 
 </beans>
