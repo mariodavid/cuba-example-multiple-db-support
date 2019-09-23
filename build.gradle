@@ -210,7 +210,7 @@ task restart(dependsOn: ['stop', ":${modulePrefix}-core:deploy", ":${modulePrefi
 task buildWar(type: CubaWarBuilding) {
     includeJdbcDriver = true
     appProperties = ['cuba.automaticDatabaseUpdate': true]
-    webXmlPath = 'modules/web/web/WEB-INF/single-war-web.xml'
     appHome = '../app_home'
     logbackConfigurationFile = 'etc/war-logback.xml'
+    singleWar = false
 }

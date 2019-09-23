@@ -1,6 +1,13 @@
 # CUBA example: multiple DB support
 
+This example shows how to provide generate a CUBA application that support multiple database management systems.
 
+The deployment scenario is the following:
+
+One "war" file is generated at build time. it contains drivers to all DBMS variants. At deployment time, the Tomcat
+server configures the information which DBMS is used and what are the connection settings to the database server.
+
+##gss
 
 
 ## Starting different DBMS

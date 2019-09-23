@@ -1,0 +1,30 @@
+<Context>
+
+    <!-- Database connection -->
+    <!--
+    <Resource
+      name="jdbc/CubaDS"
+      type="javax.sql.DataSource"
+      maxTotal="20"
+      maxIdle="2"
+      maxWaitMillis="5000"
+      driverClassName="org.postgresql.Driver"
+      url="jdbc:postgresql://localhost/cemds"
+      username="postgres"
+      password="postgres"/>
+    -->
+
+    <Resource driverClassName="com.mysql.jdbc.Driver"
+    maxIdle="2"
+    maxTotal="20"
+    maxWaitMillis="5000"
+    name="jdbc/CubaDS"
+    password="mysql"
+    type="javax.sql.DataSource"
+    url="jdbc:mysql://localhost/cuba?useSSL=false&amp;allowMultiQueries=true&amp;serverTimezone=UTC&amp;allowPublicKeyRetrieval=true"
+    username="root"/>
+
+    <!-- Switch off session serialization -->
+    <Manager pathname=""/>
+
+</Context>
