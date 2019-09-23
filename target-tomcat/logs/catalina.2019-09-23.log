@@ -1620,3 +1620,328 @@ Caused by: java.lang.IllegalArgumentException: The main resource set specified [
 23-Sep-2019 13:19:53.349 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
 23-Sep-2019 13:19:53.356 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 23-Sep-2019 13:19:53.360 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [15.456] milliseconds
+23-Sep-2019 13:48:14.202 INFORMATION [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/app-core]
+23-Sep-2019 13:48:14.654 WARNUNG [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [app-core] appears to have started a thread named [logback-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1081)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+23-Sep-2019 13:48:14.656 WARNUNG [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [app-core] appears to have started a thread named [logback-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1081)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+23-Sep-2019 13:48:14.658 WARNUNG [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [app-core] appears to have started a thread named [perf4j-async-stats-appender-sink-CoalescingStatistics] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:418)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$StopWatchesFromQueueIterator.getNext(GenericAsyncCoalescingStatisticsAppender.java:388)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$StopWatchesFromQueueIterator.hasNext(GenericAsyncCoalescingStatisticsAppender.java:349)
+ org.perf4j.helpers.GroupingStatisticsIterator.getNext(GroupingStatisticsIterator.java:149)
+ org.perf4j.helpers.GroupingStatisticsIterator.hasNext(GroupingStatisticsIterator.java:102)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$Dispatcher.run(GenericAsyncCoalescingStatisticsAppender.java:314)
+ java.lang.Thread.run(Thread.java:748)
+23-Sep-2019 13:48:14.659 WARNUNG [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [app-core] appears to have started a thread named [logback-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1081)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+23-Sep-2019 13:48:14.660 WARNUNG [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [app-core] appears to have started a thread named [perf4j-async-stats-appender-sink-UICoalescingStatistics] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:418)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$StopWatchesFromQueueIterator.getNext(GenericAsyncCoalescingStatisticsAppender.java:388)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$StopWatchesFromQueueIterator.hasNext(GenericAsyncCoalescingStatisticsAppender.java:349)
+ org.perf4j.helpers.GroupingStatisticsIterator.getNext(GroupingStatisticsIterator.java:149)
+ org.perf4j.helpers.GroupingStatisticsIterator.hasNext(GroupingStatisticsIterator.java:102)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$Dispatcher.run(GenericAsyncCoalescingStatisticsAppender.java:314)
+ java.lang.Thread.run(Thread.java:748)
+23-Sep-2019 13:48:14.660 WARNUNG [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [app-core] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:85)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+23-Sep-2019 13:48:14.672 INFORMATION [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/target-tomcat/conf/Catalina/localhost/app-core.xml]
+23-Sep-2019 13:48:19.197 INFORMATION [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+23-Sep-2019 13:48:19.197 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+23-Sep-2019 13:48:19.205 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+23-Sep-2019 13:48:19.211 INFORMATION [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+23-Sep-2019 13:48:19.614 INFORMATION [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1383)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1036)
+	at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:117)
+	at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+23-Sep-2019 13:48:19.773 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+23-Sep-2019 13:48:19.777 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+23-Sep-2019 13:48:19.787 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+23-Sep-2019 13:48:19.788 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+23-Sep-2019 13:48:24.071 SCHWERWIEGEND [main] org.apache.catalina.core.ContainerBase.removeChild Error destroying child
+ org.apache.catalina.LifecycleException: An invalid Lifecycle transition was attempted ([before_destroy]) for component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/app-core]] in state [STARTED]
+	at org.apache.catalina.util.LifecycleBase.invalidTransition(LifecycleBase.java:430)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:316)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:814)
+	at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:1016)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:814)
+	at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:1016)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+	at org.apache.catalina.core.StandardService.destroyInternal(StandardService.java:558)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+	at org.apache.catalina.core.StandardServer.destroyInternal(StandardServer.java:1067)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:707)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:668)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+
+23-Sep-2019 13:48:24.071 INFORMATION [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/target-tomcat/conf/Catalina/localhost/app-core.xml] has finished in [9.399] ms
+23-Sep-2019 13:48:31.174 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/mario/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+23-Sep-2019 13:48:31.288 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-8080"]
+23-Sep-2019 13:48:31.323 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["ajp-nio-8009"]
+23-Sep-2019 13:48:31.326 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [409] milliseconds
+23-Sep-2019 13:48:31.354 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Sep-2019 13:48:31.355 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.19]
+23-Sep-2019 13:48:31.364 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/target-tomcat/conf/Catalina/localhost/app-core.xml]
+23-Sep-2019 13:48:39.982 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/target-tomcat/conf/Catalina/localhost/app-core.xml] has finished in [8.617] ms
+23-Sep-2019 13:48:40.007 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/target-tomcat/webapps/app.war]
+23-Sep-2019 13:48:45.662 SCHWERWIEGEND [main] org.apache.catalina.session.StandardManager.startInternal Ausnahme beim Laden der Sitzungen aus dem Persistenten Speicher
+ java.io.StreamCorruptedException: invalid type code: 00
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1599)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2285)
+	at java.io.ObjectInputStream.defaultReadObject(ObjectInputStream.java:561)
+	at java.lang.Throwable.readObject(Throwable.java:914)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1158)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2176)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2067)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1571)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:431)
+	at org.apache.catalina.session.StandardSession.doReadObject(StandardSession.java:1554)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:1048)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:218)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:162)
+	at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:354)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5167)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:713)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:978)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1849)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+	at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:773)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:427)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1576)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:929)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:831)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1377)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1367)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:902)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:423)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:932)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:633)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+
+23-Sep-2019 13:48:46.934 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/target-tomcat/webapps/app.war] has finished in [6.927] ms
+23-Sep-2019 13:48:46.938 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Sep-2019 13:48:46.947 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+23-Sep-2019 13:48:46.952 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [15.624] milliseconds
+23-Sep-2019 13:50:01.644 INFORMATION [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+23-Sep-2019 13:50:01.645 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+23-Sep-2019 13:50:01.653 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+23-Sep-2019 13:50:01.660 INFORMATION [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+23-Sep-2019 13:50:01.940 WARNUNG [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [app-core] appears to have started a thread named [logback-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1081)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+23-Sep-2019 13:50:01.941 WARNUNG [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [app-core] appears to have started a thread named [logback-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1081)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+23-Sep-2019 13:50:01.944 WARNUNG [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [app-core] appears to have started a thread named [perf4j-async-stats-appender-sink-CoalescingStatistics] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:418)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$StopWatchesFromQueueIterator.getNext(GenericAsyncCoalescingStatisticsAppender.java:388)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$StopWatchesFromQueueIterator.hasNext(GenericAsyncCoalescingStatisticsAppender.java:349)
+ org.perf4j.helpers.GroupingStatisticsIterator.getNext(GroupingStatisticsIterator.java:149)
+ org.perf4j.helpers.GroupingStatisticsIterator.hasNext(GroupingStatisticsIterator.java:102)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$Dispatcher.run(GenericAsyncCoalescingStatisticsAppender.java:314)
+ java.lang.Thread.run(Thread.java:748)
+23-Sep-2019 13:50:01.946 WARNUNG [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [app-core] appears to have started a thread named [logback-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1081)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+23-Sep-2019 13:50:01.950 WARNUNG [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [app-core] appears to have started a thread named [perf4j-async-stats-appender-sink-UICoalescingStatistics] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:418)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$StopWatchesFromQueueIterator.getNext(GenericAsyncCoalescingStatisticsAppender.java:388)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$StopWatchesFromQueueIterator.hasNext(GenericAsyncCoalescingStatisticsAppender.java:349)
+ org.perf4j.helpers.GroupingStatisticsIterator.getNext(GroupingStatisticsIterator.java:149)
+ org.perf4j.helpers.GroupingStatisticsIterator.hasNext(GroupingStatisticsIterator.java:102)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$Dispatcher.run(GenericAsyncCoalescingStatisticsAppender.java:314)
+ java.lang.Thread.run(Thread.java:748)
+23-Sep-2019 13:50:01.955 WARNUNG [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [app-core] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:85)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+23-Sep-2019 13:50:01.964 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+23-Sep-2019 13:50:01.968 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+23-Sep-2019 13:50:01.969 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+23-Sep-2019 13:50:01.971 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+23-Sep-2019 13:50:32.951 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/mario/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+23-Sep-2019 13:50:33.078 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-8080"]
+23-Sep-2019 13:50:33.116 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["ajp-nio-8009"]
+23-Sep-2019 13:50:33.118 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [432] milliseconds
+23-Sep-2019 13:50:33.153 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Sep-2019 13:50:33.154 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.19]
+23-Sep-2019 13:50:33.163 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/target-tomcat/conf/Catalina/localhost/app-core.xml]
+23-Sep-2019 13:50:42.798 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/target-tomcat/conf/Catalina/localhost/app-core.xml] has finished in [9.635] ms
+23-Sep-2019 13:50:42.801 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/target-tomcat/webapps/app.war]
+23-Sep-2019 13:50:51.018 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/target-tomcat/webapps/app.war] has finished in [8.218] ms
+23-Sep-2019 13:50:51.021 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Sep-2019 13:50:51.029 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+23-Sep-2019 13:50:51.032 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [17.912] milliseconds
+23-Sep-2019 14:00:14.211 INFORMATION [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+23-Sep-2019 14:00:14.212 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+23-Sep-2019 14:00:14.219 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+23-Sep-2019 14:00:14.227 INFORMATION [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+23-Sep-2019 14:00:14.883 WARNUNG [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [app-core] appears to have started a thread named [logback-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1081)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+23-Sep-2019 14:00:14.885 WARNUNG [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [app-core] appears to have started a thread named [logback-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1081)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+23-Sep-2019 14:00:14.887 WARNUNG [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [app-core] appears to have started a thread named [perf4j-async-stats-appender-sink-CoalescingStatistics] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:418)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$StopWatchesFromQueueIterator.getNext(GenericAsyncCoalescingStatisticsAppender.java:388)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$StopWatchesFromQueueIterator.hasNext(GenericAsyncCoalescingStatisticsAppender.java:349)
+ org.perf4j.helpers.GroupingStatisticsIterator.getNext(GroupingStatisticsIterator.java:149)
+ org.perf4j.helpers.GroupingStatisticsIterator.hasNext(GroupingStatisticsIterator.java:102)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$Dispatcher.run(GenericAsyncCoalescingStatisticsAppender.java:314)
+ java.lang.Thread.run(Thread.java:748)
+23-Sep-2019 14:00:14.888 WARNUNG [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [app-core] appears to have started a thread named [logback-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1081)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+23-Sep-2019 14:00:14.889 WARNUNG [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [app-core] appears to have started a thread named [perf4j-async-stats-appender-sink-UICoalescingStatistics] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:418)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$StopWatchesFromQueueIterator.getNext(GenericAsyncCoalescingStatisticsAppender.java:388)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$StopWatchesFromQueueIterator.hasNext(GenericAsyncCoalescingStatisticsAppender.java:349)
+ org.perf4j.helpers.GroupingStatisticsIterator.getNext(GroupingStatisticsIterator.java:149)
+ org.perf4j.helpers.GroupingStatisticsIterator.hasNext(GroupingStatisticsIterator.java:102)
+ org.perf4j.helpers.GenericAsyncCoalescingStatisticsAppender$Dispatcher.run(GenericAsyncCoalescingStatisticsAppender.java:314)
+ java.lang.Thread.run(Thread.java:748)
+23-Sep-2019 14:00:14.889 WARNUNG [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [app-core] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:85)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+23-Sep-2019 14:00:14.896 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+23-Sep-2019 14:00:14.900 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+23-Sep-2019 14:00:14.901 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+23-Sep-2019 14:00:14.902 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

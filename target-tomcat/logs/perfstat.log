@@ -534,3 +534,266 @@ Performance Statistics   2019-09-23 13:44:00 - 2019-09-23 13:45:00
 Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
 
 [FAILED toString()]
+Performance Statistics   2019-09-23 13:44:00 - 2019-09-23 13:45:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:44:00 - 2019-09-23 13:45:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:44:00 - 2019-09-23 13:45:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+[FAILED toString()]
+Performance Statistics   2019-09-23 13:45:00 - 2019-09-23 13:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:45:00 - 2019-09-23 13:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+[FAILED toString()]
+Performance Statistics   2019-09-23 13:45:00 - 2019-09-23 13:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:45:00 - 2019-09-23 13:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:45:00 - 2019-09-23 13:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+[FAILED toString()]
+Performance Statistics   2019-09-23 13:46:00 - 2019-09-23 13:47:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:46:00 - 2019-09-23 13:47:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+[FAILED toString()]
+Performance Statistics   2019-09-23 13:46:00 - 2019-09-23 13:47:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:46:00 - 2019-09-23 13:47:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:46:00 - 2019-09-23 13:47:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+[FAILED toString()]
+[FAILED toString()]
+Performance Statistics   2019-09-23 13:47:00 - 2019-09-23 13:48:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+PersistenceSecurity.applyConstraints(..)                 1,0           1           1         0,0           1
+
+Performance Statistics   2019-09-23 13:47:00 - 2019-09-23 13:48:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+LoadClass                                                0,0           0           0         0,0           4
+
+Performance Statistics   2019-09-23 13:47:00 - 2019-09-23 13:48:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:47:00 - 2019-09-23 13:48:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+[FAILED toString()]
+[FAILED toString()]
+Performance Statistics   2019-09-23 13:48:00 - 2019-09-23 13:49:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:48:00 - 2019-09-23 13:49:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+LoadClass                                                0,3           0           2         0,6          12
+Messages.searchClasspath                                 0,2           0           8         0,9         101
+Messages.searchFiles                                     0,2           0          19         1,9         101
+Metadata.replaceExtendedMetaClasses                      1,0           1           1         0,0           1
+WebJARs                                                 12,0          12          12         0,0           1
+
+Performance Statistics   2019-09-23 13:48:00 - 2019-09-23 13:49:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Messages.searchClasspath                                 0,1           0           2         0,4          48
+Messages.searchFiles                                     0,3           0          13         1,9          48
+Metadata.replaceExtendedMetaClasses                      1,0           1           1         0,0           1
+
+Performance Statistics   2019-09-23 13:48:00 - 2019-09-23 13:49:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+[FAILED toString()]
+Performance Statistics   2019-09-23 13:49:00 - 2019-09-23 13:50:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+LoadClass                                                1,0           0           2         0,8           3
+Messages.searchClasspath                                 0,0           0           1         0,1         206
+Messages.searchFiles                                     0,0           0           0         0,0         206
+
+Performance Statistics   2019-09-23 13:49:00 - 2019-09-23 13:50:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+PersistenceSecurity.applyConstraints(..)                 3,0           3           3         0,0           1
+ViewRepository.init.ViewRepositoryImpl                  19,0          19          19         0,0           1
+
+[FAILED toString()]
+Performance Statistics   2019-09-23 13:49:00 - 2019-09-23 13:50:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:49:00 - 2019-09-23 13:50:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+[FAILED toString()]
+[FAILED toString()]
+Performance Statistics   2019-09-23 13:50:00 - 2019-09-23 13:51:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+LoadClass                                                0,3           0           1         0,4          12
+Messages.searchClasspath                                 0,2           0           8         1,0          84
+Messages.searchFiles                                     0,2           0          20         2,2          84
+Metadata.replaceExtendedMetaClasses                      1,0           1           1         0,0           1
+WebJARs                                                 39,0          39          39         0,0           1
+
+Performance Statistics   2019-09-23 13:50:00 - 2019-09-23 13:51:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:50:00 - 2019-09-23 13:51:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Messages.searchClasspath                                 0,1           0           4         0,6          48
+Messages.searchFiles                                     0,4           0          17         2,4          48
+Metadata.replaceExtendedMetaClasses                      1,0           1           1         0,0           1
+
+Performance Statistics   2019-09-23 13:50:00 - 2019-09-23 13:51:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+[FAILED toString()]
+[FAILED toString()]
+Performance Statistics   2019-09-23 13:51:00 - 2019-09-23 13:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+LoadClass                                                1,0           1           1         0,0           1
+Messages.searchClasspath                                 0,1           0           2         0,3          59
+Messages.searchFiles                                     0,0           0           0         0,0          59
+
+Performance Statistics   2019-09-23 13:51:00 - 2019-09-23 13:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:51:00 - 2019-09-23 13:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:51:00 - 2019-09-23 13:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:51:00 - 2019-09-23 13:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+[FAILED toString()]
+[FAILED toString()]
+Performance Statistics   2019-09-23 13:52:00 - 2019-09-23 13:53:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:52:00 - 2019-09-23 13:53:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:52:00 - 2019-09-23 13:53:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:52:00 - 2019-09-23 13:53:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:52:00 - 2019-09-23 13:53:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+[FAILED toString()]
+[FAILED toString()]
+Performance Statistics   2019-09-23 13:53:00 - 2019-09-23 13:54:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:53:00 - 2019-09-23 13:54:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:53:00 - 2019-09-23 13:54:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:53:00 - 2019-09-23 13:54:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:53:00 - 2019-09-23 13:54:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+[FAILED toString()]
+[FAILED toString()]
+Performance Statistics   2019-09-23 13:54:00 - 2019-09-23 13:55:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:54:00 - 2019-09-23 13:55:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:54:00 - 2019-09-23 13:55:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:54:00 - 2019-09-23 13:55:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:54:00 - 2019-09-23 13:55:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+[FAILED toString()]
+[FAILED toString()]
+Performance Statistics   2019-09-23 13:55:00 - 2019-09-23 13:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:55:00 - 2019-09-23 13:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:55:00 - 2019-09-23 13:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:55:00 - 2019-09-23 13:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:55:00 - 2019-09-23 13:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+[FAILED toString()]
+[FAILED toString()]
+Performance Statistics   2019-09-23 13:56:00 - 2019-09-23 13:57:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:56:00 - 2019-09-23 13:57:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:56:00 - 2019-09-23 13:57:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:56:00 - 2019-09-23 13:57:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:56:00 - 2019-09-23 13:57:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+[FAILED toString()]
+[FAILED toString()]
+Performance Statistics   2019-09-23 13:57:00 - 2019-09-23 13:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:57:00 - 2019-09-23 13:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:57:00 - 2019-09-23 13:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:57:00 - 2019-09-23 13:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:57:00 - 2019-09-23 13:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+[FAILED toString()]
+[FAILED toString()]
+Performance Statistics   2019-09-23 13:58:00 - 2019-09-23 13:59:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:58:00 - 2019-09-23 13:59:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:58:00 - 2019-09-23 13:59:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:58:00 - 2019-09-23 13:59:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2019-09-23 13:58:00 - 2019-09-23 13:59:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+[FAILED toString()]
+[FAILED toString()]

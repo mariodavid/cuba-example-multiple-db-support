@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a870dadc-2a42-4ed3-8d55-b25ca3166a46" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../target-tomcat/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/../target-tomcat/logs/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target-tomcat/logs/catalina.2019-09-23.log" beforeDir="false" afterPath="$PROJECT_DIR$/../target-tomcat/logs/catalina.2019-09-23.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../target-tomcat/logs/catalina.out" beforeDir="false" afterPath="$PROJECT_DIR$/../target-tomcat/logs/catalina.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target-tomcat/logs/localhost.2019-09-23.log" beforeDir="false" afterPath="$PROJECT_DIR$/../target-tomcat/logs/localhost.2019-09-23.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../target-tomcat/logs/localhost_access_log.2019-09-23.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../target-tomcat/logs/localhost_access_log.2019-09-23.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../target-tomcat/logs/perfstat-ui.log" beforeDir="false" afterPath="$PROJECT_DIR$/../target-tomcat/logs/perfstat-ui.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../target-tomcat/logs/perfstat.log" beforeDir="false" afterPath="$PROJECT_DIR$/../target-tomcat/logs/perfstat.log" afterDir="false" />

@@ -7,7 +7,7 @@ The deployment scenario is the following:
 One "war" file is generated at build time. it contains drivers to all DBMS variants. At deployment time, the Tomcat
 server configures the information which DBMS is used and what are the connection settings to the database server.
 
-## Example explanation
+## Example
 
 ```
 [cuba-example-multiple-db-support] tree
@@ -50,6 +50,30 @@ server configures the information which DBMS is used and what are the connection
 2.2. change DBMS type via local.app.properties: `target-tomcat/conf/app-core/local.app.properties`
 3. start tomcat (`./start-tomcat.sh`)
 
+
+## Example Screenshots
+
+
+#### local.app.properties Postgres
+![local-app-properties-postgres.png](https://github.com/mariodavid/cuba-example-multiple-db-support/blob/master/img/local-app-properties-postgres.png)
+
+#### Context.xml Postgres
+![context-xml-postgres.png](https://github.com/mariodavid/cuba-example-multiple-db-support/blob/master/img/context-xml-postgres.png)
+
+
+#### UI Postgres
+![ui-postgres.png](https://github.com/mariodavid/cuba-example-multiple-db-support/blob/master/img/ui-postgres.png)
+
+
+#### local.app.properties MySQL
+![local-app-properties-postgres.png](https://github.com/mariodavid/cuba-example-multiple-db-support/blob/master/img/local-app-properties-mysql.png)
+
+#### Context.xml MySQL
+![context-xml-postgres.png](https://github.com/mariodavid/cuba-example-multiple-db-support/blob/master/img/context-xml-mysql.png)
+
+
+#### UI MySQL
+![ui-postgres.png](https://github.com/mariodavid/cuba-example-multiple-db-support/blob/master/img/ui-mysql.png)
 
 ## Starting DBMS systems
 

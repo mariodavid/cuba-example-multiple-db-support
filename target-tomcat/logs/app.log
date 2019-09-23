@@ -333,3 +333,169 @@ To show debug window, add ?debug to your application URL.
 2019-09-23 13:29:58.137 DEBUG [http-nio-8080-exec-14/app/mysql] com.haulmont.cuba.web.App - Ping middleware session
 2019-09-23 13:39:44.995 DEBUG [cuba_core_scheduler-2] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
 2019-09-23 13:39:58.335 DEBUG [http-nio-8080-exec-1/app/mysql] com.haulmont.cuba.web.App - Ping middleware session
+2019-09-23 13:47:03.301 DEBUG [http-nio-8080-exec-3] com.haulmont.cuba.web.App - Initializing application
+2019-09-23 13:47:03.306 DEBUG [http-nio-8080-exec-3/app/anonymous] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: false
+2019-09-23 13:47:03.306 DEBUG [http-nio-8080-exec-3/app/anonymous] com.haulmont.cuba.web.App - Closing all windows in all UIs
+2019-09-23 13:47:03.551 INFO  [http-nio-8080-exec-5/app-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: 7ecdb20c-b1b9-32f1-1a75-6ce89d479b3d [admin]
+2019-09-23 13:47:11.758 INFO  [http-nio-8080-exec-8/app-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: c99624da-1465-faca-59c3-a28c661ec3c7 [mysql]
+2019-09-23 13:47:11.762 DEBUG [http-nio-8080-exec-12/app/mysql] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: true
+2019-09-23 13:47:11.762 DEBUG [http-nio-8080-exec-12/app/mysql] com.haulmont.cuba.web.App - Closing all windows in all UIs
+2019-09-23 13:47:11.765 DEBUG [http-nio-8080-exec-12/app/mysql] com.haulmont.cuba.web.DefaultApp - Session reinitialized: HttpSession=org.apache.catalina.session.StandardSessionFacade@4ca9859c, timeout=1800sec, UserSession=c99624da-1465-faca-59c3-a28c661ec3c7 [mysql]
+2019-09-23 13:47:11.795 DEBUG [http-nio-8080-exec-15/app-core/mysql] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$UserSubstitution, view=com.haulmont.cuba.security.entity.UserSubstitution/app, query=select us from sec$UserSubstitution us where us.user.id = :userId and (us.endDate is null or us.endDate >= :currentDate) and (us.startDate is null or us.startDate <= :currentDate) and (us.substitutedUser.active = true or us.substitutedUser.active is null) order by us.substitutedUser.name
+2019-09-23 13:47:11.941 DEBUG [http-nio-8080-exec-14/app-core/mysql] com.haulmont.cuba.security.app.EntityLog - Loading entities
+2019-09-23 13:47:11.950 DEBUG [http-nio-8080-exec-14/app-core/mysql] com.haulmont.cuba.security.app.EntityLog - Loaded: entitiesAuto=0, entitiesManual=0
+2019-09-23 13:47:14.457 DEBUG [http-nio-8080-exec-3/app/mysql] com.haulmont.cuba.web.App - Closing all windows in all UIs
+2019-09-23 13:47:14.472 DEBUG [http-nio-8080-exec-17/app-core/mysql] com.haulmont.cuba.security.app.UserSessions - Removed session: c99624da-1465-faca-59c3-a28c661ec3c7 [mysql], since: Mon Sep 23 13:47:11 CEST 2019, lastUsed: Mon Sep 23 13:47:11 CEST 2019
+2019-09-23 13:47:14.472 INFO  [http-nio-8080-exec-17/app-core/mysql] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged out: c99624da-1465-faca-59c3-a28c661ec3c7 [mysql]
+2019-09-23 13:47:14.473 DEBUG [http-nio-8080-exec-3] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: false, authenticated: false
+2019-09-23 13:47:14.473 DEBUG [http-nio-8080-exec-3] com.haulmont.cuba.web.App - Closing all windows in all UIs
+2019-09-23 13:47:14.476 DEBUG [http-nio-8080-exec-3/app/anonymous] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: false
+2019-09-23 13:47:14.476 DEBUG [http-nio-8080-exec-3/app/anonymous] com.haulmont.cuba.web.App - Closing all windows in all UIs
+2019-09-23 13:48:15.159 INFO  [Catalina-utility-1] com.haulmont.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba]
+2019-09-23 13:48:15.206 INFO  [Catalina-utility-1] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from classpath:com/rtcab/cemds/app.properties
+2019-09-23 13:48:15.213 INFO  [Catalina-utility-1] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from /WEB-INF/local.app.properties
+2019-09-23 13:48:15.215 INFO  [Catalina-utility-1] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from file:/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/target-tomcat/conf/app-core/local.app.properties
+2019-09-23 13:48:15.327 INFO  [Catalina-utility-1] com.haulmont.cuba.core.sys.AppContextLoader - DbmsType of the main database is set to postgres
+2019-09-23 13:48:15.365 INFO  [Catalina-utility-1] com.haulmont.cuba.core.sys.environmentcheck.DataStoresCheck - Checking connection to data store _MAIN_
+2019-09-23 13:48:15.535 INFO  [Catalina-utility-1] com.haulmont.cuba.core.sys.environmentcheck.EnvironmentChecksRunner - Environment checks on core module completed successfully
+2019-09-23 13:48:15.733 INFO  [Catalina-utility-1] com.haulmont.cuba.core.sys.persistence.PersistenceConfigProcessor - Creating file /Users/mario/dev/projects/cuba/examples/app_home/app-core/work/persistence.xml
+2019-09-23 13:48:21.308 INFO  [Catalina-utility-1] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService 'scheduler'
+2019-09-23 13:48:21.427 INFO  [Catalina-utility-1] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [app-core.cuba:type=PersistenceManager, app-core.cuba:type=ConfigStorage, app-core.cuba:type=UserSessions, app-core.cuba:type=UniqueNumbers, app-core.cuba:type=Emailer, app-core.cuba:type=EntityLog, app-core.cuba:type=FileStorage, app-core.cuba:type=LockManager, app-core.cuba:type=CachingFacade, app-core.cuba:type=ClusterManager, app-core.cuba:type=ScriptingManager, app-core.cuba:type=ServerInfo, app-core.cuba:type=Scheduling, app-core.cuba:type=PasswordEncryptionSupport, app-core.cuba:type=JmxNodeIdentifier, app-core.cuba:type=JmxLogControl, app-core.cuba:type=ClassLoaderManager, app-core.cuba:type=StatisticsCounter, app-core.cuba:type=BruteForceProtection, app-core.cuba:type=QueryCacheSupport]
+2019-09-23 13:48:21.659 INFO  [Catalina-utility-1] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+2019-09-23 13:48:21.847 INFO  [Catalina-utility-1] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 184 ms
+2019-09-23 13:48:21.879 INFO  [Catalina-utility-1] com.haulmont.cuba.core.sys.dbupdate.DbUpdaterEngine - Updating database...
+2019-09-23 13:48:22.038 INFO  [Catalina-utility-1] com.haulmont.cuba.core.sys.dbupdate.DbUpdaterEngine - Database is up-to-date
+2019-09-23 13:48:22.041 DEBUG [Catalina-utility-1] com.haulmont.cuba.security.auth.AnonymousSessionHolder - Initialize anonymous session
+2019-09-23 13:48:22.869 INFO  [Catalina-utility-1/app-core/server] com.haulmont.cuba.core.app.ConfigStorage - Loading DB-stored app properties cache
+2019-09-23 13:48:23.404 INFO  [Catalina-utility-1/app-core/server] com.haulmont.cuba.core.sys.DefaultPermissionValuesConfig - Initializing default permission values
+2019-09-23 13:48:23.500 INFO  [Catalina-utility-1/app-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: 8219c06c-6327-3cd0-a758-5096de22b87f [anonymous]
+2019-09-23 13:48:23.501 DEBUG [Catalina-utility-1] com.haulmont.cuba.security.auth.AnonymousSessionHolder - Anonymous session initialized with id 8219c06c-6327-3cd0-a758-5096de22b87f
+2019-09-23 13:48:23.501 INFO  [Catalina-utility-1] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - AppContext started
+2019-09-23 13:48:23.519 INFO  [Catalina-utility-1] com.haulmont.cuba.core.sys.remoting.RemotingServlet - Initializing Servlet 'remoting'
+2019-09-23 13:48:23.576 INFO  [Catalina-utility-1] com.haulmont.cuba.core.sys.remoting.RemoteServicesBeanCreator - Configuring remote services
+2019-09-23 13:48:23.662 DEBUG [cuba_core_scheduler-5] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2019-09-23 13:48:24.068 INFO  [Catalina-utility-1] com.haulmont.cuba.core.sys.remoting.RemotingServlet - Completed initialization in 548 ms
+2019-09-23 13:48:32.124 INFO  [main] com.haulmont.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba]
+2019-09-23 13:48:32.159 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from classpath:com/rtcab/cemds/app.properties
+2019-09-23 13:48:32.164 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from /WEB-INF/local.app.properties
+2019-09-23 13:48:32.168 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from file:/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/target-tomcat/conf/app-core/local.app.properties
+2019-09-23 13:48:32.324 INFO  [main] com.haulmont.cuba.core.sys.AppContextLoader - DbmsType of the main database is set to postgres
+2019-09-23 13:48:32.346 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.DataStoresCheck - Checking connection to data store _MAIN_
+2019-09-23 13:48:32.463 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.EnvironmentChecksRunner - Environment checks on core module completed successfully
+2019-09-23 13:48:32.573 INFO  [main] com.haulmont.cuba.core.sys.persistence.PersistenceConfigProcessor - Creating file /Users/mario/dev/projects/cuba/examples/app_home/app-core/work/persistence.xml
+2019-09-23 13:48:37.290 INFO  [main] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService 'scheduler'
+2019-09-23 13:48:37.434 INFO  [main] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [app-core.cuba:type=PersistenceManager, app-core.cuba:type=ConfigStorage, app-core.cuba:type=UserSessions, app-core.cuba:type=UniqueNumbers, app-core.cuba:type=Emailer, app-core.cuba:type=EntityLog, app-core.cuba:type=FileStorage, app-core.cuba:type=LockManager, app-core.cuba:type=CachingFacade, app-core.cuba:type=ClusterManager, app-core.cuba:type=ScriptingManager, app-core.cuba:type=ServerInfo, app-core.cuba:type=Scheduling, app-core.cuba:type=PasswordEncryptionSupport, app-core.cuba:type=JmxNodeIdentifier, app-core.cuba:type=JmxLogControl, app-core.cuba:type=ClassLoaderManager, app-core.cuba:type=StatisticsCounter, app-core.cuba:type=BruteForceProtection, app-core.cuba:type=QueryCacheSupport]
+2019-09-23 13:48:37.693 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+2019-09-23 13:48:37.880 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 187 ms
+2019-09-23 13:48:37.910 INFO  [main] com.haulmont.cuba.core.sys.dbupdate.DbUpdaterEngine - Updating database...
+2019-09-23 13:48:38.163 INFO  [main] com.haulmont.cuba.core.sys.dbupdate.DbUpdaterEngine - Database is up-to-date
+2019-09-23 13:48:38.167 DEBUG [main] com.haulmont.cuba.security.auth.AnonymousSessionHolder - Initialize anonymous session
+2019-09-23 13:48:38.832 INFO  [main/app-core/server] com.haulmont.cuba.core.app.ConfigStorage - Loading DB-stored app properties cache
+2019-09-23 13:48:39.304 INFO  [main/app-core/server] com.haulmont.cuba.core.sys.DefaultPermissionValuesConfig - Initializing default permission values
+2019-09-23 13:48:39.409 INFO  [main/app-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: 8219c06c-6327-3cd0-a758-5096de22b87f [anonymous]
+2019-09-23 13:48:39.410 DEBUG [main] com.haulmont.cuba.security.auth.AnonymousSessionHolder - Anonymous session initialized with id 8219c06c-6327-3cd0-a758-5096de22b87f
+2019-09-23 13:48:39.411 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - AppContext started
+2019-09-23 13:48:39.441 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemotingServlet - Initializing Servlet 'remoting'
+2019-09-23 13:48:39.499 DEBUG [cuba_core_scheduler-5] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2019-09-23 13:48:39.538 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemoteServicesBeanCreator - Configuring remote services
+2019-09-23 13:48:39.970 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemotingServlet - Completed initialization in 528 ms
+2019-09-23 13:48:40.959 INFO  [main] com.haulmont.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba]
+2019-09-23 13:48:41.006 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from classpath:com/rtcab/cemds/web-app.properties
+2019-09-23 13:48:41.015 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from /WEB-INF/local.app.properties
+2019-09-23 13:48:41.019 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from file:/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/target-tomcat/conf/app/local.app.properties
+2019-09-23 13:48:41.150 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.EnvironmentChecksRunner - Environment checks on web module completed successfully
+2019-09-23 13:48:43.281 INFO  [main] com.haulmont.cuba.core.sys.remoting.discovery.StaticServerSelector - Server URLs: [http://localhost:8080/app-core/remoting]
+2019-09-23 13:48:43.304 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemoteProxyBeanCreator - Configuring remote proxy beans: [cuba_AuthenticationService, cuba_TrustedClientService, cuba_ServerInfoService, cuba_UserSettingService, cuba_UserManagementService, cuba_DataService, cuba_ConfigStorageService, cuba_PersistenceManagerService, cuba_LockService, cuba_UserSessionService, cuba_FoldersService, cuba_EmailService, cuba_FileStorageService, cuba_EntitySnapshotService, cuba_UniqueNumbersService, cuba_LocalizedMessageService, cuba_ResourceService, cuba_ScheduledTasksService, cuba_EntityLogService, cuba_TestingService, cuba_DomainDescriptionService, cuba_RelatedEntitiesService, cuba_EntitySqlGenerationService, cuba_NumberIdService, cuba_QueryResultsService, cuba_DynamicAttributesCacheService, cuba_EntityRestoreService, cuba_LocalFileExchangeService, cuba_EntityImportExportService, cuba_ConstraintLocalizationService, cuba_AttributeAccessService, cuba_ExceptionReportService, cuba_BulkEditorDataService, cuba_AttributeOptionsLoaderService]
+2019-09-23 13:48:43.311 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemoteProxyBeanCreator - Configuring remote proxy beans: []
+2019-09-23 13:48:44.864 INFO  [main] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService 'scheduler'
+2019-09-23 13:48:45.161 INFO  [main] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [app.cuba:type=ConfigStorage, app.cuba:type=CachingFacade, app.cuba:type=FileUploading, app.cuba:type=JmxNodeIdentifier, app.cuba:type=JmxLogControl, app.cuba:type=ClassLoaderManager, app.cuba:type=StatisticsCounter]
+2019-09-23 13:48:45.284 DEBUG [main] com.haulmont.cuba.gui.components.impl.ActionsImpl - Actions initialized in 34 ms
+2019-09-23 13:48:45.289 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+2019-09-23 13:48:45.528 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 238 ms
+2019-09-23 13:48:45.556 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - AppContext started
+2019-09-23 13:48:45.685 INFO  [main] com.haulmont.cuba.web.sys.CubaDispatcherServlet - Initializing Servlet 'dispatcher'
+2019-09-23 13:48:46.196 DEBUG [main] org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2019-09-23 13:48:46.929 INFO  [main] com.haulmont.cuba.web.sys.CubaDispatcherServlet - Completed initialization in 1244 ms
+2019-09-23 13:48:47.060 WARN  [http-nio-8080-exec-12] com.vaadin.server.DefaultDeploymentConfiguration - 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+2019-09-23 13:49:36.849 DEBUG [http-nio-8080-exec-14] com.haulmont.cuba.web.App - Initializing application
+2019-09-23 13:49:36.860 DEBUG [http-nio-8080-exec-14] com.haulmont.cuba.gui.theme.ThemeConstantsRepository - Loading theme constants
+2019-09-23 13:49:36.887 DEBUG [http-nio-8080-exec-14] com.haulmont.cuba.web.security.WebAnonymousSessionHolder - Loading anonymous session
+2019-09-23 13:49:37.438 DEBUG [http-nio-8080-exec-14] com.haulmont.cuba.web.security.WebAnonymousSessionHolder - Anonymous session loaded with id 8219c06c-6327-3cd0-a758-5096de22b87f
+2019-09-23 13:49:37.448 DEBUG [http-nio-8080-exec-14/app/anonymous] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: false
+2019-09-23 13:49:37.448 DEBUG [http-nio-8080-exec-14/app/anonymous] com.haulmont.cuba.web.App - Closing all windows in all UIs
+2019-09-23 13:49:37.500 INFO  [http-nio-8080-exec-14/app/anonymous] com.haulmont.cuba.gui.config.WindowConfig - WindowConfig initialized in 42 ms
+2019-09-23 13:49:50.033 INFO  [http-nio-8080-exec-9/app-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: 9784c17a-1205-1e62-96c5-6f3e24558ad3 [postgres]
+2019-09-23 13:49:50.044 DEBUG [http-nio-8080-exec-18/app/postgres] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: true
+2019-09-23 13:49:50.045 DEBUG [http-nio-8080-exec-18/app/postgres] com.haulmont.cuba.web.App - Closing all windows in all UIs
+2019-09-23 13:49:50.052 DEBUG [http-nio-8080-exec-18/app/postgres] com.haulmont.cuba.web.DefaultApp - Session reinitialized: HttpSession=org.apache.catalina.session.StandardSessionFacade@38ecb212, timeout=1800sec, UserSession=9784c17a-1205-1e62-96c5-6f3e24558ad3 [postgres]
+2019-09-23 13:49:50.283 INFO  [http-nio-8080-exec-1/app-core/postgres] com.haulmont.cuba.core.sys.AbstractViewRepository - Initializing views
+2019-09-23 13:49:50.303 DEBUG [http-nio-8080-exec-1/app-core/postgres] com.haulmont.cuba.core.app.StoreFactory - No implementation is specified for _MAIN_ store, using RdbmsStore
+2019-09-23 13:49:50.316 DEBUG [http-nio-8080-exec-1/app-core/postgres] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$UserSubstitution, view=com.haulmont.cuba.security.entity.UserSubstitution/app, query=select us from sec$UserSubstitution us where us.user.id = :userId and (us.endDate is null or us.endDate >= :currentDate) and (us.startDate is null or us.startDate <= :currentDate) and (us.substitutedUser.active = true or us.substitutedUser.active is null) order by us.substitutedUser.name
+2019-09-23 13:49:50.530 DEBUG [http-nio-8080-exec-10/app-core/postgres] com.haulmont.cuba.security.app.EntityLog - Loading entities
+2019-09-23 13:49:50.540 DEBUG [http-nio-8080-exec-10/app-core/postgres] com.haulmont.cuba.security.app.EntityLog - Loaded: entitiesAuto=0, entitiesManual=0
+2019-09-23 13:49:52.260 DEBUG [http-nio-8080-exec-11/app/postgres] com.haulmont.cuba.web.App - Closing all windows in all UIs
+2019-09-23 13:49:52.269 DEBUG [http-nio-8080-exec-7/app-core/postgres] com.haulmont.cuba.security.app.UserSessions - Removed session: 9784c17a-1205-1e62-96c5-6f3e24558ad3 [postgres], since: Mon Sep 23 13:49:50 CEST 2019, lastUsed: Mon Sep 23 13:49:50 CEST 2019
+2019-09-23 13:49:52.270 INFO  [http-nio-8080-exec-7/app-core/postgres] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged out: 9784c17a-1205-1e62-96c5-6f3e24558ad3 [postgres]
+2019-09-23 13:49:52.273 DEBUG [http-nio-8080-exec-11] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: false, authenticated: false
+2019-09-23 13:49:52.273 DEBUG [http-nio-8080-exec-11] com.haulmont.cuba.web.App - Closing all windows in all UIs
+2019-09-23 13:49:52.279 DEBUG [http-nio-8080-exec-11/app/anonymous] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: false
+2019-09-23 13:49:52.280 DEBUG [http-nio-8080-exec-11/app/anonymous] com.haulmont.cuba.web.App - Closing all windows in all UIs
+2019-09-23 13:50:34.071 INFO  [main] com.haulmont.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba]
+2019-09-23 13:50:34.113 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from classpath:com/rtcab/cemds/app.properties
+2019-09-23 13:50:34.122 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from /WEB-INF/local.app.properties
+2019-09-23 13:50:34.123 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from file:/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/target-tomcat/conf/app-core/local.app.properties
+2019-09-23 13:50:34.354 INFO  [main] com.haulmont.cuba.core.sys.AppContextLoader - DbmsType of the main database is set to mysql
+2019-09-23 13:50:34.388 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.DataStoresCheck - Checking connection to data store _MAIN_
+2019-09-23 13:50:34.606 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.EnvironmentChecksRunner - Environment checks on core module completed successfully
+2019-09-23 13:50:34.739 INFO  [main] com.haulmont.cuba.core.sys.persistence.PersistenceConfigProcessor - Creating file /Users/mario/dev/projects/cuba/examples/app_home/app-core/work/persistence.xml
+2019-09-23 13:50:39.717 INFO  [main] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService 'scheduler'
+2019-09-23 13:50:39.905 INFO  [main] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [app-core.cuba:type=PersistenceManager, app-core.cuba:type=ConfigStorage, app-core.cuba:type=UserSessions, app-core.cuba:type=UniqueNumbers, app-core.cuba:type=Emailer, app-core.cuba:type=EntityLog, app-core.cuba:type=FileStorage, app-core.cuba:type=LockManager, app-core.cuba:type=CachingFacade, app-core.cuba:type=ClusterManager, app-core.cuba:type=ScriptingManager, app-core.cuba:type=ServerInfo, app-core.cuba:type=Scheduling, app-core.cuba:type=PasswordEncryptionSupport, app-core.cuba:type=JmxNodeIdentifier, app-core.cuba:type=JmxLogControl, app-core.cuba:type=ClassLoaderManager, app-core.cuba:type=StatisticsCounter, app-core.cuba:type=BruteForceProtection, app-core.cuba:type=QueryCacheSupport]
+2019-09-23 13:50:40.245 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+2019-09-23 13:50:40.492 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 246 ms
+2019-09-23 13:50:40.565 INFO  [main] com.haulmont.cuba.core.sys.dbupdate.DbUpdaterEngine - Updating database...
+2019-09-23 13:50:40.798 INFO  [main] com.haulmont.cuba.core.sys.dbupdate.DbUpdaterEngine - Database is up-to-date
+2019-09-23 13:50:40.803 DEBUG [main] com.haulmont.cuba.security.auth.AnonymousSessionHolder - Initialize anonymous session
+2019-09-23 13:50:41.746 INFO  [main/app-core/server] com.haulmont.cuba.core.app.ConfigStorage - Loading DB-stored app properties cache
+2019-09-23 13:50:42.178 INFO  [main/app-core/server] com.haulmont.cuba.core.sys.DefaultPermissionValuesConfig - Initializing default permission values
+2019-09-23 13:50:42.265 INFO  [main/app-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: 8219c06c-6327-3cd0-a758-5096de22b87f [anonymous]
+2019-09-23 13:50:42.265 DEBUG [main] com.haulmont.cuba.security.auth.AnonymousSessionHolder - Anonymous session initialized with id 8219c06c-6327-3cd0-a758-5096de22b87f
+2019-09-23 13:50:42.266 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - AppContext started
+2019-09-23 13:50:42.292 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemotingServlet - Initializing Servlet 'remoting'
+2019-09-23 13:50:42.337 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemoteServicesBeanCreator - Configuring remote services
+2019-09-23 13:50:42.468 DEBUG [cuba_core_scheduler-5] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2019-09-23 13:50:42.788 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemotingServlet - Completed initialization in 495 ms
+2019-09-23 13:50:43.887 INFO  [main] com.haulmont.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba]
+2019-09-23 13:50:43.951 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from classpath:com/rtcab/cemds/web-app.properties
+2019-09-23 13:50:43.973 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from /WEB-INF/local.app.properties
+2019-09-23 13:50:43.976 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from file:/Users/mario/dev/projects/cuba/examples/cuba-example-multiple-db-support/target-tomcat/conf/app/local.app.properties
+2019-09-23 13:50:44.117 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.EnvironmentChecksRunner - Environment checks on web module completed successfully
+2019-09-23 13:50:46.882 INFO  [main] com.haulmont.cuba.core.sys.remoting.discovery.StaticServerSelector - Server URLs: [http://localhost:8080/app-core/remoting]
+2019-09-23 13:50:46.924 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemoteProxyBeanCreator - Configuring remote proxy beans: [cuba_AuthenticationService, cuba_TrustedClientService, cuba_ServerInfoService, cuba_UserSettingService, cuba_UserManagementService, cuba_DataService, cuba_ConfigStorageService, cuba_PersistenceManagerService, cuba_LockService, cuba_UserSessionService, cuba_FoldersService, cuba_EmailService, cuba_FileStorageService, cuba_EntitySnapshotService, cuba_UniqueNumbersService, cuba_LocalizedMessageService, cuba_ResourceService, cuba_ScheduledTasksService, cuba_EntityLogService, cuba_TestingService, cuba_DomainDescriptionService, cuba_RelatedEntitiesService, cuba_EntitySqlGenerationService, cuba_NumberIdService, cuba_QueryResultsService, cuba_DynamicAttributesCacheService, cuba_EntityRestoreService, cuba_LocalFileExchangeService, cuba_EntityImportExportService, cuba_ConstraintLocalizationService, cuba_AttributeAccessService, cuba_ExceptionReportService, cuba_BulkEditorDataService, cuba_AttributeOptionsLoaderService]
+2019-09-23 13:50:46.937 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemoteProxyBeanCreator - Configuring remote proxy beans: []
+2019-09-23 13:50:48.848 INFO  [main] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService 'scheduler'
+2019-09-23 13:50:49.173 INFO  [main] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [app.cuba:type=ConfigStorage, app.cuba:type=CachingFacade, app.cuba:type=FileUploading, app.cuba:type=JmxNodeIdentifier, app.cuba:type=JmxLogControl, app.cuba:type=ClassLoaderManager, app.cuba:type=StatisticsCounter]
+2019-09-23 13:50:49.312 DEBUG [main] com.haulmont.cuba.gui.components.impl.ActionsImpl - Actions initialized in 32 ms
+2019-09-23 13:50:49.318 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+2019-09-23 13:50:49.596 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 278 ms
+2019-09-23 13:50:49.652 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - AppContext started
+2019-09-23 13:50:49.802 INFO  [main] com.haulmont.cuba.web.sys.CubaDispatcherServlet - Initializing Servlet 'dispatcher'
+2019-09-23 13:50:50.319 DEBUG [main] org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2019-09-23 13:50:51.014 INFO  [main] com.haulmont.cuba.web.sys.CubaDispatcherServlet - Completed initialization in 1212 ms
+2019-09-23 13:50:51.170 WARN  [http-nio-8080-exec-13] com.vaadin.server.DefaultDeploymentConfiguration - 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+2019-09-23 13:51:16.790 DEBUG [http-nio-8080-exec-15] com.haulmont.cuba.web.App - Initializing application
+2019-09-23 13:51:16.797 DEBUG [http-nio-8080-exec-15] com.haulmont.cuba.gui.theme.ThemeConstantsRepository - Loading theme constants
+2019-09-23 13:51:16.823 DEBUG [http-nio-8080-exec-15] com.haulmont.cuba.web.security.WebAnonymousSessionHolder - Loading anonymous session
+2019-09-23 13:51:17.115 DEBUG [http-nio-8080-exec-15] com.haulmont.cuba.web.security.WebAnonymousSessionHolder - Anonymous session loaded with id 8219c06c-6327-3cd0-a758-5096de22b87f
+2019-09-23 13:51:17.125 DEBUG [http-nio-8080-exec-15/app/anonymous] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: false
+2019-09-23 13:51:17.126 DEBUG [http-nio-8080-exec-15/app/anonymous] com.haulmont.cuba.web.App - Closing all windows in all UIs
+2019-09-23 13:51:17.173 INFO  [http-nio-8080-exec-15/app/anonymous] com.haulmont.cuba.gui.config.WindowConfig - WindowConfig initialized in 38 ms
