@@ -51,28 +51,29 @@ server configures the information which DBMS is used and what are the connection
 3. start tomcat (`./start-tomcat.sh`)
 
 
-## Example Screenshots
+## Example Postgres
 
-
-#### local.app.properties Postgres
+#### local.app.properties
 ![local-app-properties-postgres.png](https://github.com/mariodavid/cuba-example-multiple-db-support/blob/master/img/local-app-properties-postgres.png)
 
-#### Context.xml Postgres
+#### context.xml
 ![context-xml-postgres.png](https://github.com/mariodavid/cuba-example-multiple-db-support/blob/master/img/context-xml-postgres.png)
 
 
-#### UI Postgres
+#### Running application
 ![ui-postgres.png](https://github.com/mariodavid/cuba-example-multiple-db-support/blob/master/img/ui-postgres.png)
 
 
-#### local.app.properties MySQL
+## Example MySQL
+
+#### local.app.properties
 ![local-app-properties-postgres.png](https://github.com/mariodavid/cuba-example-multiple-db-support/blob/master/img/local-app-properties-mysql.png)
 
-#### Context.xml MySQL
+#### context.xml
 ![context-xml-postgres.png](https://github.com/mariodavid/cuba-example-multiple-db-support/blob/master/img/context-xml-mysql.png)
 
 
-#### UI MySQL
+#### Running application
 ![ui-postgres.png](https://github.com/mariodavid/cuba-example-multiple-db-support/blob/master/img/ui-mysql.png)
 
 ## Starting DBMS systems
