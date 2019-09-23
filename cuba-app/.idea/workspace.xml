@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a870dadc-2a42-4ed3-8d55-b25ca3166a46" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target-tomcat/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/../target-tomcat/logs/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target-tomcat/logs/catalina.out" beforeDir="false" afterPath="$PROJECT_DIR$/../target-tomcat/logs/catalina.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target-tomcat/logs/localhost_access_log.2019-09-23.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../target-tomcat/logs/localhost_access_log.2019-09-23.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target-tomcat/logs/perfstat-ui.log" beforeDir="false" afterPath="$PROJECT_DIR$/../target-tomcat/logs/perfstat-ui.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target-tomcat/logs/perfstat.log" beforeDir="false" afterPath="$PROJECT_DIR$/../target-tomcat/logs/perfstat.log" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -140,10 +144,10 @@
     <layout>
       <window_info id="Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16187434" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16187434" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.2911917" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.2911917" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Build" weight="0.32953367" />
       <window_info anchor="bottom" id="Message" order="0" />

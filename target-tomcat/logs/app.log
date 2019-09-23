@@ -331,3 +331,5 @@ To show debug window, add ?debug to your application URL.
 2019-09-23 13:20:00.108 DEBUG [http-nio-8080-exec-1/app-core/mysql] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$UserSubstitution, view=com.haulmont.cuba.security.entity.UserSubstitution/app, query=select us from sec$UserSubstitution us where us.user.id = :userId and (us.endDate is null or us.endDate >= :currentDate) and (us.startDate is null or us.startDate <= :currentDate) and (us.substitutedUser.active = true or us.substitutedUser.active is null) order by us.substitutedUser.name
 2019-09-23 13:29:44.993 DEBUG [cuba_core_scheduler-10] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
 2019-09-23 13:29:58.137 DEBUG [http-nio-8080-exec-14/app/mysql] com.haulmont.cuba.web.App - Ping middleware session
+2019-09-23 13:39:44.995 DEBUG [cuba_core_scheduler-2] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2019-09-23 13:39:58.335 DEBUG [http-nio-8080-exec-1/app/mysql] com.haulmont.cuba.web.App - Ping middleware session

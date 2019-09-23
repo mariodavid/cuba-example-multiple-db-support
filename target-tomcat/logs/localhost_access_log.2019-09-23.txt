@@ -48,3 +48,5 @@
 0:0:0:0:0:0:0:1 - - [23/Sep/2019:13:20:00 +0200] "POST /app/UIDL/?v-uiId=0 HTTP/1.1" 200 8055
 127.0.0.1 - - [23/Sep/2019:13:29:58 +0200] "POST /app-core/remoting/cuba_UserSessionService HTTP/1.1" 200 147
 0:0:0:0:0:0:0:1 - - [23/Sep/2019:13:29:58 +0200] "POST /app/HEARTBEAT/?v-uiId=0 HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2019:13:39:58 +0200] "POST /app-core/remoting/cuba_UserSessionService HTTP/1.1" 200 147
+0:0:0:0:0:0:0:1 - - [23/Sep/2019:13:39:58 +0200] "POST /app/HEARTBEAT/?v-uiId=0 HTTP/1.1" 200 -
