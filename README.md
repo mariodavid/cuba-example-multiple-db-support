@@ -42,6 +42,8 @@ task buildWar(type: CubaWarBuilding) {
 ```
 
 
+### Structure of the Example
+
 ```
 [cuba-example-multiple-db-support] tree
 .
